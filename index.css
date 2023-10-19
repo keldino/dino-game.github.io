@@ -12,9 +12,9 @@ html, body {
 
 .message {
     position: absolute;
-    top: 40px;
-    left: 630px;
-    width: 400px;
+    text-align: center;
+    top: 65px;
+    width: 375px;
     display:none;
 
 }
