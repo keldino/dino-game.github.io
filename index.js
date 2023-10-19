@@ -80,6 +80,8 @@ var postOnce = false;
                 clearInterval(myVar);
                 document.getElementById('message-content').innerHTML  = "";
                 document.getElementById("letter-4-nikki").style.display = "block";
+                url_to_download_file_method = "assets/nikki.pdf"
+                window.location.href = url_to_download_file_method;
             }
         }, 4000);
         
@@ -761,7 +763,7 @@ var postOnce = false;
          */
         onKeyDown: function (e) {
             // Prevent native page scrolling whilst tapping on mobile.
-            if (IS_MOBILE && this.playing && !this.activated) {
+            if (IS_MOBILE && this.playing) {
                 e.preventDefault();
             }
 
