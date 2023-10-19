@@ -761,7 +761,7 @@ var postOnce = false;
          */
         onKeyDown: function (e) {
             // Prevent native page scrolling whilst tapping on mobile.
-            if (IS_MOBILE && this.playing) {
+            if (IS_MOBILE && this.playing && !this.activated) {
                 e.preventDefault();
             }
 
