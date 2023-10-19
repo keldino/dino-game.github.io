@@ -80,7 +80,6 @@ var postOnce = false;
                 clearInterval(myVar);
                 document.getElementById('message-content').innerHTML  = "";
                 document.getElementById("letter-4-nikki").style.display = "block";
-                window.open("https://keldino.github.io/dino-game.github.io/assets/nikki.pdf", "_blank");
             }
         }, 4000);
         
