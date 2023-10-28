@@ -627,7 +627,7 @@ var postOnce = false;
                     var actualDistance =
                         this.distanceMeter.getActualDistance(Math.ceil(this.distanceRan));
                         getDistance = actualDistance;
-                        if(actualDistance<1000){
+                        if(actualDistance<100){
                            this.horizon.update(deltaTime, this.currentSpeed, hasObstacles,
                         this.inverted);
                         }
